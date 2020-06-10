@@ -1,15 +1,23 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Header from '../components/header'
+import Sublog from "../components/sublog"
+import Serv1 from "../components/serv1"
+import Serv2 from "../components/serv2"
+
 const IndexPage = () => (
   <div>
     <div className="Hero">
+      <Header />
       <div className="HeroGroup">
-        <p>Leftfield is a business development, marketing services and project delivery organization.</p>
-        <p>We assist international firms in their efforts to sell their products and services in India.</p>
-        <Link to="/page-2/">Work with us</Link>
+        <h1>A new kind of growth agency.</h1>
+        <Link to="/"><button>Work with us</button></Link>
       </div>
     </div>
+    <Sublog />
+    <Serv1 />
+    <Serv2 />
   </div>
 )
 

@@ -1,0 +1,33 @@
+.Serv2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 840px;
+    -webkit-align-items:stretch;
+    -webkit-box-align:stretch;
+    -ms-flex-align:stretch;
+    align-items:stretch;
+}
+
+.Serv2right {
+    background-color: white;
+}
+
+.Serv2right h1 {
+    font-size: 36px;
+    letter-spacing: -2px;
+    padding: 40px;
+    font-weight: 800;
+    color: black;
+}
+
+.Serv2right p {
+    font-size: 48px;
+    letter-spacing: -2px;
+    padding: 40px;
+    font-weight: 400;
+    color: black;
+}
+
+.Serv2left {
+    background-image: url("../images/gradient.png");
+}

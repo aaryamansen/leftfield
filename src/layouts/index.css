@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;523;600;700;800&display=swap');
 
 body {
   font-family: 'Manrope', sans-serif;
@@ -10,22 +10,24 @@ body {
 
 a {
   color: #f77f00;
-  font-weight: 600;
   text-decoration: none;
 }
 
 .Hero {
   background: #FFF9ED;
-  height: 920px;
+  height: 840px;
+  background-image: url("../images/header-bg.png");
   background-size: cover;
   background-position: center;
 }
 
 .Hero h1 {
   margin: 0;
-  color: white;
-  font-size: 60px;
-  line-height: 1.2;
+  color: black;
+  font-size: 64px;
+  letter-spacing: -4px;
+  font-weight: 800;
+  line-height: 110%;
 }
 
 .Hero p {
@@ -38,18 +40,29 @@ a {
   font-size: 24px;
   color: white;
   text-transform: capitalize;
-  background: #000000;
-  padding: 9px 20px;
-  border: 2px solid #000000;
-  box-sizing: border-box;
-  border-radius: 10px;    
+}
+
+.HeroGroup button {
+  background-color: black;
+  font-size: 24px;
+  border-radius: 32px;
+  margin-top: 64px;
+  padding: 16px 32px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
 }
 
 .HeroGroup {
   margin: 0 auto;
   max-width: 500px;
   padding: 150px 50px;
+  text-align: center;
 }
+
 
 @media (max-width: 640px) {
   .HeroGroup {
