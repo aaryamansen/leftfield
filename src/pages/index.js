@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import Header from '../components/header'
-import Sublog from "../components/sublog"
+import ServHead from "../components/servhead"
 import Serv1 from "../components/serv1"
 import Serv2 from "../components/serv2"
 import Clients from "../components/clients"
@@ -21,7 +21,7 @@ const IndexPage = () => (
       </div>
       <div className="Social">Find us on <a href="https://www.linkedin.com">LinkedIn</a>, <a href="https://www.facebook.com">Facebook</a>, and <a href="https://www.instagram.com">Instagram</a>.</div>
     </div>
-    <Sublog />
+    <ServHead />
     <Serv1 />
     <Serv2 />
     <ClientHead />
