@@ -11,23 +11,45 @@
 }
 
 .Serv2right {
-    background-color: white;
+    background-color: #444DDC;
 }
 
 .Serv2right h1 {
-    font-size: 36px;
+    font-size: 48px;
     letter-spacing: -2px;
-    padding: 40px 80px 0px 40px;
+    margin: 80px 0px 0px 40px;
     font-weight: 800;
-    color: black;
+    color: white;
 }
 
 .Serv2right p {
-    font-size: 48px;
-    letter-spacing: -2px;
-    padding: 60px 80px 0px 40px;
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin: 60px 40px 0px 40px;
     font-weight: 400;
-    color: black;
+    color: white;
+}
+
+.Serv2right button {
+    background-color: #444DDC;
+    border: 2px solid #fff;
+    font-size: 24px;
+    letter-spacing: 0px;
+    border-radius: 45px;
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.Serv2right button:hover {
+    box-shadow: 0 10px 20px rgba(255,255,255,0.25);
+    transform: translateY(-5px);
+    background-color: white;
+    color: #444DDC;
 }
 
 .Serv2left {

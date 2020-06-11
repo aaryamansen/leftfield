@@ -12,6 +12,7 @@ const Serv2 = () => (
         <p>
             Leftfield is a business development, marketing services and project delivery organization. We assist international firms in their efforts to sell their products and services in India.
         </p>
+        <button>Learn more</button>
       </div>
   </div>
 )

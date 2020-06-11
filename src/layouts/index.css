@@ -28,21 +28,21 @@ body {
 .Hero h2 {
   margin-top: 60px;
   font-size: 32px;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
   font-weight: 600;
   line-height: 110%;
 }
 
 .Hero p {
-  color: rgba(0, 0, 0, 0.8);
+  color: rgba(0, 0, 0);
   font-size: 30px;
   line-height: 1.5;
 }
 
 .Hero a {
-  margin-top: 30px;
-  font-size: 32px;
-  letter-spacing: -2px;
+  margin-top: 20px;
+  font-size: 24px;
+  letter-spacing: 0px;
   color: #444DDC;
   font-weight: 500;
   text-decoration: none;
@@ -51,7 +51,7 @@ body {
 .HeroGroup button {
   background-color: #444DDC;
   font-size: 32px;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   border-radius: 45px;
   margin-top: 60px;
   padding: 20px 40px;
@@ -64,15 +64,24 @@ body {
 }
 
 .HeroGroup button:hover {
-  box-shadow: 0 10px 20px rgba(0,0,0, 0.25);
+  box-shadow: 0 10px 20px rgba(68,77,220,0.25);
   transform: translateY(-5px);
 }
 
 .HeroGroup {
   margin: 0 auto;
-  max-width: 1012px;
-  padding: 160px 0px;
+  max-width: 900px;
+  padding: 150px 0px;
   text-align: center;
+}
+
+.Social {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 0;
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
 }
 
 

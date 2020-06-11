@@ -13,19 +13,40 @@
 }
 
 .Serv1left h1 {
-    font-size: 36px;
+    font-size: 48px;
     letter-spacing: -2px;
-    padding: 40px 80px 0px 40px;
+    margin: 80px 0px 0px 40px;
     font-weight: 800;
     color: black;
 }
 
 .Serv1left p {
-    font-size: 40px;
-    letter-spacing: -2px;
-    padding: 60px 80px 0px 40px;
+    font-size: 36px;
+    letter-spacing: 0px;
+    margin: 60px 40px 0px 40px;
     font-weight: 400;
     color: black;
+}
+
+.Serv1left button {
+    background-color: #444DDC;
+    font-size: 24px;
+    letter-spacing: 0px;
+    border-radius: 45px;
+    margin-top: 100px;
+    margin-left: 40px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.Serv1left button:hover {
+    box-shadow: 0 10px 20px rgba(68,77,220,0.25);
+    transform: translateY(-5px);
 }
 
 .Serv1right {
