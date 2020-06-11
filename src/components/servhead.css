@@ -1,8 +1,9 @@
 .ServHead {
     width: 100%;
-    background-color: black;
+    background-color: #444DDC;
     font-size: 72px;
     color: white;
+    font-weight: 800;
     letter-spacing: -4px;
     text-align: center;
     padding: 120px 0px;

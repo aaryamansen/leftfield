@@ -12,14 +12,20 @@ import Contact from "../components/contact"
 const IndexPage = () => (
   <div>
     <div className="Hero">
+      <div className="Logo">Leftfield</div>
       <div className="HeroGroup">
-        <h1>Leftfield is a new kind of growth agency.</h1>
+        <h1>Leftfield is a new kind of growth company.</h1>
         <h2>We help startups with sales, growth marketing, enterprise customer acquisition and fundraising.</h2>
         <Link to="/"><button>Work with us</button></Link>
         <p></p>
         <Link to="/">or explore our services</Link>
       </div>
       <div className="Social">Find us on <a href="https://www.linkedin.com">LinkedIn</a>, <a href="https://www.facebook.com">Facebook</a>, and <a href="https://www.instagram.com">Instagram</a>.</div>
+      <div className="Work">Work</div>
+      <div className="Services">Services</div>
+      <div className="Team">Team</div>
+      <div className="Press">Press</div>
+      <div className="ContactLink">Contact</div>
     </div>
     <ServHead />
     <Serv1 />

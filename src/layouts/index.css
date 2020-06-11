@@ -84,6 +84,99 @@ body {
   left: 40px;
 }
 
+.Logo {
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.Logo:hover {
+  color: #444DDC;
+  cursor: pointer;
+}
+
+
+.Work {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: absolute;
+  top: 30px;
+  right: 510px;
+}
+
+.Work:hover {
+  color: #444DDC;
+  cursor: pointer;
+}
+
+
+.Services {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: absolute;
+  top: 30px;
+  right: 375px;
+}
+
+.Services:hover {
+  color: #444DDC;
+  cursor: pointer;
+}
+
+
+.Team {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: absolute;
+  top: 30px;
+  right: 275px;
+}
+
+.Team:hover {
+  color: #444DDC;
+  cursor: pointer;
+}
+
+
+.Press {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: absolute;
+  top: 30px;
+  right: 172px;
+}
+
+.Press:hover {
+  color: #444DDC;
+  cursor: pointer;
+}
+
+
+.ContactLink {
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+
+.ContactLink:hover {
+  color: #444DDC;
+  cursor: pointer;
+}
+
+
+
+
+
 
 @media (max-width: 640px) {
   .HeroGroup {

@@ -1,0 +1,28 @@
+.ClientStats {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    -webkit-align-items:stretch;
+    -webkit-box-align:stretch;
+    -ms-flex-align:stretch;
+    align-items:stretch;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    margin-top: 0;
+}
+
+.Stat {
+    margin-top: 0;
+}
+
+.Stat h1 {
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.Stat p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
