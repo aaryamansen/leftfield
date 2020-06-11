@@ -21,6 +21,7 @@ const IndexPage = () => (
       </div>
       <div className="Social">Find us on <a href="https://www.linkedin.com">LinkedIn</a>, <a href="https://www.facebook.com">Facebook</a>, and <a href="https://www.instagram.com">Instagram</a>.</div>
     </div>
+    <Sublog />
     <Serv1 />
     <Serv2 />
     <ClientHead />
