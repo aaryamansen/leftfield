@@ -5,10 +5,10 @@ const Serv1 = () => (
   <div className="Serv1">
       <div className="Serv1left">
         <h1>
-            We supercharge your sales.
+            EMOJI We supercharge your sales.
         </h1>
         <p>
-            Leftfield is a business development, marketing services and project delivery organization. We assist international firms in their efforts to sell their products and services in India.
+            We drive your growth through direct sales. We optimize your channel strategies and distribution networks. We help you craft strategies to gain enterprise customers. We help you scale your company around the world.
         </p>
       </div>
       <div className="Serv1right">

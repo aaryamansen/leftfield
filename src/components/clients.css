@@ -1,9 +1,9 @@
-.Sublog {
+.Clients {
     width: 100%;
-    background-color: black;
+    background-color: grey;
     font-size: 72px;
     color: white;
     letter-spacing: -4px;
     text-align: center;
-    padding: 120px 0px;
+    padding: 240px 0px;
 }

@@ -15,19 +15,19 @@
 .Serv1left h1 {
     font-size: 36px;
     letter-spacing: -2px;
-    padding: 40px;
+    padding: 40px 80px 0px 40px;
     font-weight: 800;
     color: black;
 }
 
 .Serv1left p {
-    font-size: 48px;
+    font-size: 40px;
     letter-spacing: -2px;
-    padding: 40px;
+    padding: 60px 80px 0px 40px;
     font-weight: 400;
     color: black;
 }
 
 .Serv1right {
-    background-image: url("../images/gradient.png");
+    background-image: url("../images/serv1-bg.png");
 }
