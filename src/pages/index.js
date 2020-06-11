@@ -26,7 +26,6 @@ const IndexPage = () => (
     <Serv2 />
     <ClientHead />
     <Clients />
-    <Contact />
   </div>
 )
 
