@@ -6,6 +6,8 @@ import Sublog from "../components/sublog"
 import Serv1 from "../components/serv1"
 import Serv2 from "../components/serv2"
 import Clients from "../components/clients"
+import ClientHead from "../components/clienthead"
+import Contact from "../components/contact"
 
 const IndexPage = () => (
   <div>
@@ -22,7 +24,9 @@ const IndexPage = () => (
     <Sublog />
     <Serv1 />
     <Serv2 />
+    <ClientHead />
     <Clients />
+    <Contact />
   </div>
 )
 
