@@ -14,8 +14,8 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="Logo">Leftfield</div>
       <div className="HeroGroup">
-        <h1>Leftfield is a new kind of growth company.</h1>
-        <h2>We help startups with sales, growth marketing, enterprise customer acquisition and fundraising.</h2>
+        <h1>Leftfield delivers world class business and corporate development services for your company.</h1>
+        <h2>We help our clients grow revenues, increase market share and expand distribution, leveraging our expertise and relationships to help them secure enterprise customers in the public and private sectors.</h2>
         <Link to="/"><button>Work with us</button></Link>
         <p></p>
         <Link to="/">or explore our services</Link>
@@ -31,7 +31,6 @@ const IndexPage = () => (
     <Serv1 />
     <Serv2 />
     <ClientHead />
-    <Clients />
     <Contact />
   </div>
 )

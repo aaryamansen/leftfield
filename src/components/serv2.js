@@ -7,10 +7,13 @@ const Serv2 = () => (
       </div>
       <div className="Serv2right">
         <h1>
-            We open doors for you.
+            Financing
         </h1>
         <p>
-            Leftfield is a business development, marketing services and project delivery organization. We assist international firms in their efforts to sell their products and services in India.
+            Financing services include introductions to traditional and non-traditional sources of capital, assistance with participating in the allocation process for grants or subsidies where relevant, and guidance on tax-efficient structuring of entities and transactions.
+        </p>
+        <p>
+            Independently or occasionally in partnership with other firms, LFS has helped deliver about $450 million in capital to clients. The funds have come in various forms including equity, debt, government grants and subsidies, and other hybrid forms.
         </p>
         <button>Learn more</button>
       </div>

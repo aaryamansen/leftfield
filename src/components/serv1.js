@@ -5,10 +5,13 @@ const Serv1 = () => (
   <div className="Serv1">
       <div className="Serv1left">
         <h1>
-            We supercharge your sales.
+            Business Development
         </h1>
         <p>
-            We drive your growth through direct sales. We optimize your channel strategies and distribution networks. We help you craft strategies to gain enterprise customers. We help you scale your company around the world.
+            Business Development services are focused on all of those activities that help a business expand its customer base, increase its distribution, and grow into new markets.
+        </p>
+        <p>
+            By helping clients identify and successfully engage with enterprise clients in the public and private sectors, the team at LFS has delivered over $500 Million in contracts to clients over the last decade.
         </p>
         <button>Learn more</button>
       </div>
