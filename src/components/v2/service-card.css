@@ -1,0 +1,52 @@
+.ServiceCard {
+    font-family: 'Manrope', sans-serif;
+    background-color: darkslategray;
+    color: white;
+    width: 30vw;
+    height: 640px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    display: grid;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+
+.ServiceCard img {
+    height: 100px;
+    margin: 20px 0 0 20px;
+}
+
+.ServiceCard h1 {
+    color: white;
+    font-size: 32px;
+    margin: 20px 0 0 20px;
+    width: 20vw;
+}
+
+.ServiceCard p {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 20px;
+}
+
+.ServiceCard h3 {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    align-self: end;
+    margin: 0 20px 20px 20px;
+}
+
+@media (max-width: 1060px) {
+    .ServiceCard {
+      width: 45vw
+    }
+  }
+  
+  @media (max-width: 720px) {
+    .ServiceCard {
+      width: 90vw;
+    }
+  }

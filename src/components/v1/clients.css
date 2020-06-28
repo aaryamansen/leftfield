@@ -1,0 +1,71 @@
+.Clients {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 640px;
+    -webkit-align-items:stretch;
+    -webkit-box-align:stretch;
+    -ms-flex-align:stretch;
+    align-items:stretch;
+    background-size: cover;
+    background-position: center;
+}
+
+.ClientCard {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.ClientCard h1 {
+    font-size: 36px;
+    letter-spacing: -1px;
+    padding-top: 30px;
+}
+
+.ClientCard p {
+    font-size: 24px;
+    padding-top: 30px;
+}
+
+.ClientCard button {
+    background-color: #444DDC;
+    font-size: 24px;
+    letter-spacing: 0px;
+    border-radius: 45px;
+    margin-top: 60px;
+    margin-left: 0px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+.ClientCard:hover {
+    background-color: #444DDC;
+    color: white;
+}
+
+.ClientCard:hover button {
+    background-color: #444DDC;
+    border: 2px solid #fff;
+    font-size: 24px;
+    letter-spacing: 0px;
+    border-radius: 45px;
+    margin-top: 40px;
+    margin-left: 0px;
+    padding: 16px 32px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
+}
+
+
+.ClientCard:hover button:hover {
+    box-shadow: 0 10px 20px rgba(255,255,255,0.25);
+    transform: translateY(-3px);
+    background-color: white;
+    color: #444DDC;
+}

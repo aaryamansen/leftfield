@@ -1,0 +1,9 @@
+.ClientHead {
+    width: 100%;
+    background-color: white;
+    font-size: 72px;
+    color: black;
+    letter-spacing: -4px;
+    text-align: center;
+    padding: 80px 0px;
+}
